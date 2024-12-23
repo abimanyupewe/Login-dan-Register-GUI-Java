@@ -140,7 +140,7 @@ public class Login extends javax.swing.JFrame {
             home.setLocationRelativeTo(null);
             home.setDefaultCloseOperation(Login.EXIT_ON_CLOSE);
         } else {
-            JOptionPane.showInternalMessageDialog(this, "Username dan password tidak valid, silahkan cek kembali", "Konfirmasi", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(this, "Username dan password tidak valid, silahkan cek kembali", "Konfirmasi", JOptionPane.ERROR_MESSAGE);
         }
     }//GEN-LAST:event_btnLoginLogActionPerformed
 

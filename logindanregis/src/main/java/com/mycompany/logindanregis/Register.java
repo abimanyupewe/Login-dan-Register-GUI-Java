@@ -149,7 +149,7 @@ public class Register extends javax.swing.JFrame {
             Lg.setLocationRelativeTo(null);
             Lg.setDefaultCloseOperation(Register.EXIT_ON_CLOSE);
         } else {
-            JOptionPane.showInternalMessageDialog(this, "Password tidak sama, silahkan input ulang" + "Password dengan benar", "Konfirmasi", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(this, "Password tidak sama, silahkan input ulang" + "Password dengan benar", "Konfirmasi", JOptionPane.ERROR_MESSAGE);
         }
     }//GEN-LAST:event_btnRegisRegActionPerformed
 
