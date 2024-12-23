@@ -42,19 +42,21 @@
                       </Group>
                       <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="txtNamaReg" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="btnRegisReg" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Component id="btnLoginReg" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <Component id="txtUsernameReg" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="passReg" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="repassReg" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="txtNamaReg" alignment="0" max="32767" attributes="0"/>
+                              <Component id="txtUsernameReg" alignment="0" max="32767" attributes="0"/>
+                              <Component id="passReg" alignment="0" max="32767" attributes="0"/>
+                              <Component id="repassReg" alignment="0" pref="90" max="32767" attributes="0"/>
+                          </Group>
                       </Group>
                   </Group>
               </Group>
-              <EmptySpace pref="400" max="32767" attributes="0"/>
+              <EmptySpace pref="369" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -102,14 +104,8 @@
   </Layout>
   <SubComponents>
     <Component class="javax.swing.JPasswordField" name="passReg">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="jPasswordField1"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JPasswordField" name="repassReg">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="jPasswordField2"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
@@ -118,7 +114,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jLabel2"/>
+        <Property name="text" type="java.lang.String" value="Nama"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="btnLoginReg">
@@ -133,17 +129,17 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel4">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jLabel4"/>
+        <Property name="text" type="java.lang.String" value="Username"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel5">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jLabel5"/>
+        <Property name="text" type="java.lang.String" value="Password"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel6">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jLabel6"/>
+        <Property name="text" type="java.lang.String" value="Re-password"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="btnRegisReg">
@@ -155,14 +151,8 @@
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txtNamaReg">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="jTextField1"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtUsernameReg">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="jTextField2"/>
-      </Properties>
     </Component>
   </SubComponents>
 </Form>

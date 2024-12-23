@@ -12,11 +12,11 @@ package com.mycompany.logindanregis;
 public class Logindanregis {
 
     public static void main(String[] args) {
-        Register reg = new Register();
-        reg.setVisible(true);
+        Login Lg = new Login();
+        Lg.setVisible(true);
         
-        reg.pack();
-        reg.setLocationRelativeTo(null);
-        reg.setDefaultCloseOperation(Register.EXIT_ON_CLOSE);
+        Lg.pack();
+        Lg.setLocationRelativeTo(null);
+        Lg.setDefaultCloseOperation(Login.EXIT_ON_CLOSE);
     }
 }

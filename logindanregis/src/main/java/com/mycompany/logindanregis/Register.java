@@ -47,23 +47,19 @@ public class Register extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        passReg.setText("jPasswordField1");
-
-        repassReg.setText("jPasswordField2");
-
         jLabel1.setText("jLabel1");
 
-        jLabel2.setText("jLabel2");
+        jLabel2.setText("Nama");
 
         btnLoginReg.setText("Login");
 
         jLabel3.setText("jLabel3");
 
-        jLabel4.setText("jLabel4");
+        jLabel4.setText("Username");
 
-        jLabel5.setText("jLabel5");
+        jLabel5.setText("Password");
 
-        jLabel6.setText("jLabel6");
+        jLabel6.setText("Re-password");
 
         btnRegisReg.setText("Register");
         btnRegisReg.addActionListener(new java.awt.event.ActionListener() {
@@ -71,10 +67,6 @@ public class Register extends javax.swing.JFrame {
                 btnRegisRegActionPerformed(evt);
             }
         });
-
-        txtNamaReg.setText("jTextField1");
-
-        txtUsernameReg.setText("jTextField2");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -96,15 +88,16 @@ public class Register extends javax.swing.JFrame {
                             .addComponent(jLabel6))
                         .addGap(66, 66, 66)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txtNamaReg, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(btnRegisReg)
                                 .addGap(18, 18, 18)
                                 .addComponent(btnLoginReg))
-                            .addComponent(txtUsernameReg, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(passReg, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(repassReg, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(400, Short.MAX_VALUE))
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                .addComponent(txtNamaReg, javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(txtUsernameReg, javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(passReg, javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(repassReg, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 90, Short.MAX_VALUE)))))
+                .addContainerGap(369, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
